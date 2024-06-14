@@ -1,144 +1,68 @@
 export const metadata = {
-  title: 'React.js and Tailwind CSS',
+  title: 'Unit 4',
   description:
-    'Unit 4 of the Nivaro AI Website Program introduces students to React.js and Tailwind CSS, focusing on creating dynamic web applications with these modern technologies.',
+    'This unit focuses on final preparation for the Advanced AET admissions process, including last-minute tips and strategies, and taking a mock test to review performance.',
 }
 
-# Unit 4: React.js and Tailwind CSS
+# Unit 4: Final Preparation
 
-Hey everyone! In Unit 4, we're diving into some cool stuff with React.js and Tailwind CSS. React.js is a big deal for making interactive web pages, and Tailwind CSS is all about making things look good easily. We're using Codespaces for this, so it's going to be super easy to get started.
+Welcome to the fourth unit of Advanced Prep! This unit is designed to ensure you are fully prepared for the Advanced AET admissions process. We will cover last-minute tips and strategies, as well as provide a mock test to help you simulate the real experience and review your performance. Let's finalize your journey to success! {{ className: 'lead' }}
 
-<iframe
-  style={{ width: '100%', height: '500px' }}
+## Lesson 4.1: Last Minute Tips and Tricks
 
-src="https://www.youtube.com/embed/R0KJoMMhfnI"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen
+### Final Tips and Strategies for Preparation
 
-> </iframe>
+- **Objective:** Learn final tips and strategies to ensure you are fully prepared for the admissions test.
+- **Activity:** Techniques for managing time and stress during the test.
 
-## Lesson 4.1: Intro to React.js
+### Step-by-Step Guide:
 
-React.js makes web pages interactive. We'll start by setting up a React project right in Codespaces.
+1. **Final Preparation Tips:**
 
-### Setting Up in Codespaces
+   - Review essential tips and strategies for test day preparation.
+   - Focus on techniques to manage time effectively during the test.
+   - **Integration of Rubric Criteria:**
+     - **Questioning/Processing:** Develop questions to clarify any last-minute doubts. Explore effective time management techniques.
+     - **Information Gathering/Analysis:** Gather final pieces of information and strategies. Analyze their effectiveness in reducing stress and improving performance.
 
-1. Go to [CodeSpaces](https://github.com/codespaces/).
-2. Click on 'Use React Template'.
+2. **Managing Stress:**
 
-### Example: A Simple React Component
+   - Learn techniques to stay calm and focused during the test.
+   - Practice relaxation and stress-management exercises.
+   - **Integration of Rubric Criteria:**
+     - **Fluency/Originality of Ideas:** Generate ideas for managing stress and staying focused. Provide clear and practical strategies.
+     - **Presentation/Reasoning:** Organize your stress-management plan. Present clear and reasoned explanations of your techniques.
 
-Let's make a basic React component. This is how you structure UI elements in React.
+## Lesson 4.2: Mock Test and Review
 
-```javascript
-// Example: A simple React component
-import React from 'react'
+### Simulating the Real Experience
 
-function WelcomeMessage() {
-  return <h1>Welcome to React.js!</h1>
-}
+- **Objective:** Take a mock admissions test to simulate the real experience.
+- **Activity:** Review and analyze your performance to identify areas for improvement.
 
-export default WelcomeMessage
-```
+### Step-by-Step Guide:
 
-<iframe
-  style={{ width: '100%', height: '500px' }}
+1. **Taking the Mock Test:**
 
-src="https://www.youtube.com/embed/rboJixUrMUU"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen
+   - Participate in a mock admissions test designed to simulate the actual test experience.
+   - Focus on applying the strategies and techniques learned throughout the course.
+   - **Integration of Rubric Criteria:**
+     - **Questioning/Processing:** Develop specific questions to address during the mock test. Explore strategies to improve performance.
+     - **Information Gathering/Analysis:** Collect data on your performance. Analyze areas where you can improve.
 
-> </iframe>
+2. **Review and Analysis:**
 
-## Lesson 4.2: Intro to Tailwind CSS
+   - Review your mock test results and analyze your performance.
+   - Identify strengths and areas for improvement.
+   - **Integration of Rubric Criteria:**
+     - **Fluency/Originality of Ideas:** Generate ideas for improving your performance. Provide clear explanations of your strengths and weaknesses.
+     - **Presentation/Reasoning:** Organize your review process. Present detailed and clear descriptions of areas for improvement.
 
-Tailwind CSS is a cool way to style things without writing tons of CSS. We'll add it to our React project in Codespaces.
+## End Goals
 
-### Adding Tailwind CSS in Codespaces
+- **Learn and apply final tips and strategies for the admissions test.**
+- **Develop effective time and stress management techniques.**
+- **Simulate the real test experience with a mock test.**
+- **Review and analyze your performance to identify areas for improvement.**
 
-1. Open your React project in Codespaces.
-2. In the 'Dependencies' section, add `tailwindcss`, `postcss`, and `autoprefixer`.
-3. Create a `tailwind.config.js` file and set it up:
-
-   ```js
-   // tailwind.config.js
-   module.exports = {
-     content: ['./src/**/*.{js,jsx,ts,tsx}'],
-     theme: {
-       extend: {},
-     },
-     plugins: [],
-   }
-   ```
-
-4. In your main CSS file, import Tailwind:
-
-   ```css
-   /* In your main CSS file */
-   @import 'tailwindcss/base';
-   @import 'tailwindcss/components';
-   @import 'tailwindcss/utilities';
-   ```
-
-5. Add this to your public/index.html file under the `<head>` section:
-
-```css
-<head>
-  ...
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-```
-
-### Example: Styling with Tailwind CSS
-
-Now, let's use Tailwind CSS to style a React component.
-
-```html
-<!-- Example: Using Tailwind CSS with React -->
-<div
-  className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
->
-  <div>
-  <!-- Using: text-xl, font-medium, text-black -->
-    <h1 className="text-xl font-medium text-black">ChitChat</h1>
-  
-  <!-- Using: text-gray-500 -->
-    <p className="text-blue">New message!</p>
-  </div>
-</div>
-```
-
-In the example above, we styled the text in the h1 tag (ChitChat) with class names
-of **text-xl, font-medium** and **text-black,** while we styled the text in the p 
-tag (New Message!) with **text-blue.** These tags do the following:
-  - **text-xl:** Makes the text extra large
-  - **font-medium:** Makes the font a medium boldness
-  - **text-black** Makes the text color black
-  - **text-blue** Makes the text color blue
-
-Using Tailwindcss, you can clearly see how much easier it is to make
-a website look good! For more classes, make sure to use [Tailwind CSS Documentation](https://divmagic.com/tailwind).
-
-### Important Links
-
-- [React.js Documentation](https://react.dev/learn)
-- [Tailwind CSS Documentation](https://divmagic.com/tailwind)
-
-## Homework: Resume Website
-
-Follow Units 4.1 and 4.2 to get started. From there, work on a resume website to show yourself off! An example is below:
-
-<img src="https://i.ibb.co/tKGnsnJ/Capture-2024-02-28-205937.png" />
-(from How to Become a Developer YT)
-
-**Include the following:**
-
-- Your Name
-- A little blurb about yourself
-- A picture. Doesn't have to be of yourself, just something that represents you
-- A nice looking website
-- **Submit your website through Schoology**
+By the end of this unit, you'll be fully prepared for the Advanced AET admissions process, equipped with strategies, techniques, and the confidence needed to succeed.
