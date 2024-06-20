@@ -68,7 +68,7 @@ export const Header = forwardRef(function Header({ className }, ref) {
       <div className="flex items-center gap-5">
         <nav className="hidden md:block">
           <ul role="list" className="flex items-center gap-8">
-            <TopLevelNavItem href="https://nivaro.io/">
+            <TopLevelNavItem href="https://advancedprep.framer.website/">
               Back Home
             </TopLevelNavItem>
           </ul>
@@ -77,9 +77,6 @@ export const Header = forwardRef(function Header({ className }, ref) {
         <div className="flex gap-4">
           <MobileSearch />
           <ThemeToggle />
-        </div>
-        <div className="hidden min-[416px]:contents">
-          <Button href="https://discord.gg/cDQVKEtsmW">Discord</Button>
         </div>
       </div>
     </motion.div>

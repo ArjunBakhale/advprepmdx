@@ -198,14 +198,10 @@ export const navigation = [
       { title: 'Introduction', href: '/' },
       { title: 'Course Overview', href: '/course-overview' },
 
-      { title: 'Unit 1: Coding Principles', href: '/unit-1' },
-      { title: 'Unit 2: Web Basics', href: '/unit-2' },
-      { title: 'Unit 3: HTML, CSS, JavaScript', href: '/unit-3' },
-      { title: 'Unit 4: React.js & TailwindCSS', href: '/unit-4' },
-      { title: 'Unit 5: AI Chatbot', href: '/unit-5' },
-      { title: 'Unit 6: Next.JS Website', href: '/unit-6' },
-      { title: 'Unit 7: Designs to Code', href: '/unit-7' },
-      { title: 'Unit 8: Deploying to Vercel', href: '/unit-8' },
+      { title: 'Unit 1: Understanding the Admissions Process', href: '/unit-1' },
+      { title: 'Unit 2: Developing Core Skills', href: '/unit-2' },
+      { title: 'Unit 3: Essay Practice', href: '/unit-3' },
+      { title: 'Unit 4: Final Preparation', href: '/unit-4' },
     ],
   },
   {

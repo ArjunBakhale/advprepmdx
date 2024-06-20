@@ -106,24 +106,14 @@ function SmallPrint() {
   return (
     <div className="flex flex-col items-center justify-between gap-5 border-t border-zinc-900/5 pt-8 dark:border-white/5 sm:flex-row">
       <p className="text-xs text-zinc-600 dark:text-zinc-400">
-        &copy; Copyright Nivaro {new Date().getFullYear()}. All rights reserved.
+        &copy; Copyright Advanced Prep {new Date().getFullYear()}. All rights reserved.
       </p>
       <div className="flex gap-4">
         <a
           href="https://old.nivaro.io"
           className="text-zinc-600 dark:text-zinc-400"
         >
-          Old Curriculum
         </a>
-        <SocialLink
-          href="https://www.linkedin.com/company/93287837/admin/feed/posts/"
-          icon={TwitterIcon}
-        >
-          Follow us on Linkedin
-        </SocialLink>
-        <SocialLink href="https://discord.gg/PB6vGbSr4X" icon={DiscordIcon}>
-          Join our Discord server
-        </SocialLink>
       </div>
     </div>
   )
