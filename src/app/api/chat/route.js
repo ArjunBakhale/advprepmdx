@@ -119,8 +119,10 @@ Your role is to assist with explanations, answer queries about these topics, and
     stream: true,
     messages,
   })
+
   // Convert the response into a friendly text-stream
   const stream = OpenAIStream(response)
   // Respond with the stream
   return new StreamingTextResponse(stream)
+
 }
