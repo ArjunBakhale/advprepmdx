@@ -15,15 +15,6 @@ const withMDX = nextMDX({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  webpack: (config, { isServer }) => {
-    // This will make webpack process CSS files
-    config.module.rules.push({
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader'],
-    });
-
-    return config;
-  },
 }
 
 export default withSearch(withMDX(nextConfig))
