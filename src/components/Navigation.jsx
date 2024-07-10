@@ -193,7 +193,7 @@ function NavigationGroup({ group, className }) {
 
 export const navigation = [
   {
-    title: 'AI Curriculum',
+    title: 'Advanced Prep Curriculum',
     links: [
       { title: 'Introduction', href: '/' },
       { title: 'Course Overview', href: '/course-overview' },

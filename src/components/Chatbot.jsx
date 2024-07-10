@@ -51,7 +51,7 @@ export function Chat() {
           <span className="h-0.5 w-0.5 rounded-full bg-zinc-500" />
 
           <span className="font-mono text-xs text-zinc-400">
-            Nivaro Chatbot
+            Advanced Prep Chatbot
           </span>
         </div>
 
