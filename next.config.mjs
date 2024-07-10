@@ -15,6 +15,12 @@ const withMDX = nextMDX({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-}
+  webpack: (config) => {
+    // Exclude react-highlight-search for vercel deployment
+    config.externals = config.externals || {};
+    config.externals['react-highlight-search'] = 'commonjs react-highlight-search';
+    return config;
+  },
+};
 
-export default withSearch(withMDX(nextConfig))
+module.exports = withSearch(withMDX(nextConfig));
